@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/')
 def nfl():
     """Return a friendly HTTP greeting."""
-    return 'All NFL Teams Suck!'
+    return 'All NFL Teams Suck Except the Giants!'
 
 
 if __name__ == '__main__':
